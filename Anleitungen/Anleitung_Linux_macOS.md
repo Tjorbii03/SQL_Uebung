@@ -58,7 +58,7 @@ Um die SQL-Aufgaben zu lösen, musst du dich mit deiner Datenbank verbinden.
     ```
     Dein Terminal-Prompt ändert sich zu `sqlite>`.
 
-2.  **Optimiere die Anzeige (Empfehlung)**:
+2.  **Optimiere die Anzeige (das ist keine Vorraussetzung, nur eine Empfehlung)**:
     Damit die Abfrageergebnisse als saubere, lesbare Tabelle angezeigt werden, führe diese beiden Befehle aus:
     ```sql
     .header on
