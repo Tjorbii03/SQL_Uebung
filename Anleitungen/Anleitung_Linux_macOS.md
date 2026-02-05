@@ -44,7 +44,7 @@ Wenn eine Versionsnummer angezeigt wird (z.B. `3.37.2`), ist alles bereit. Ander
     ```bash
     sqlite3 Uebungsdatenbank.db < 02_Setup_Datenbank.sql
     ```
-    Danach befindet sich eine neue Datei `Uebungsdatenbank.db` im Ordner. Dies ist deine lokale SQL-Datenbank. der Pfeil > oder < beschreibt die Richtung aus welcher datei die neue erstellt werden soll
+    Danach befindet sich eine neue Datei `Uebungsdatenbank.db` im Ordner. Dies ist deine lokale SQL-Datenbank. der Pfeil (>) oder (<) beschreibt die Richtung aus welcher datei die neue erstellt werden soll
 
 ---
 
