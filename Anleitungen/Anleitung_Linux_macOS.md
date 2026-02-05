@@ -36,7 +36,7 @@ Wenn eine Versionsnummer angezeigt wird (z.B. `3.37.2`), ist alles bereit. Ander
     Öffne ein Terminal und wechsle in das Verzeichnis, in dem die SQL-Skripte (`02_Setup_Datenbank.sql` etc.) liegen.
     ```bash
     # Ersetze den Pfad durch den tatsächlichen Pfad zum Projektordner
-    cd /pfad/zum/projekt/SQL
+    cd /pfad/zum/projekt/Uebungsumgebung
     ```
 
 2.  **Datenbank aufsetzen**:
