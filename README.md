@@ -53,5 +53,3 @@ Für die beste Erfahrung mit diesem Projekt empfehle ich die Verwendung von **Vi
 2.  Öffne den Ordner `Anleitungen` und folge der Anleitung für dein Betriebssystem, um die `Uebungsdatenbank.db` im Ordner `Uebungsumgebung` zu erstellen.
 3.  Öffne die `Uebungsumgebung/01_Theorie_und_Syntax.md`, um die Grundlagen aufzufrischen.
 4.  Beginne mit den `Uebungsumgebung/Aufgaben.md` und überprüfe deine Ergebnisse mit den `Uebungsumgebung/Lösungen.md`.
-
-Viel Erfolg!
