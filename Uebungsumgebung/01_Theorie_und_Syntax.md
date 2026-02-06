@@ -7,25 +7,29 @@ Dieses Dokument bietet eine Übersicht über grundlegende und fortgeschrittene S
 ### 1. Grundlagen: Daten abfragen
 
 #### `SELECT` / `FROM`
+
 - **Zweck**: Wählt Spalten aus einer oder mehreren Tabellen aus.
 - `SELECT *`: Wählt **alle** Spalten aus.
 - `SELECT Spalte1, Spalte2`: Wählt nur die angegebenen Spalten aus.
 - `FROM Tabelle`: Gibt die Tabelle an, aus der die Daten gelesen werden.
 
 **Beispiel**:
+
 ```sql
 -- Wählt nur Vorname und Stadt aus der Kundentabelle
 SELECT Vorname, Stadt FROM Kunden;
 ```
 
 #### `WHERE`
+
 - **Zweck**: Filtert die Zeilen basierend auf einer oder mehreren Bedingungen.
 - **Operatoren**: `=`, `!=` (oder `<>`), `>`, `<`, `>=`, `<=`
 - **Bedingungen verknüpfen**:
-    - `AND`: Beide Bedingungen müssen wahr sein.
-    - `OR`: Mindestens eine der Bedingungen muss wahr sein.
+  - `AND`: Beide Bedingungen müssen wahr sein.
+  - `OR`: Mindestens eine der Bedingungen muss wahr sein.
 
 **Beispiel**:
+
 ```sql
 -- Wählt alle Produkte aus der Kategorie 'Elektronik', die mehr als 500 kosten
 SELECT * FROM Produkte WHERE Kategorie = 'Elektronik' AND Preis > 500;
@@ -39,11 +43,13 @@ SELECT * FROM Kunden WHERE Stadt = 'Berlin' OR Stadt = 'Hamburg';
 ### 2. Ergebnisse sortieren und eingrenzen
 
 #### `ORDER BY`
+
 - **Zweck**: Sortiert die Ergebnismenge nach einer oder mehreren Spalten.
 - `ASC` (ascending): Aufsteigend (Standard, kann weggelassen werden).
 - `DESC` (descending): Absteigend.
 
 **Beispiel**:
+
 ```sql
 -- Sortiert Produkte nach Preis (teuerste zuerst)
 SELECT * FROM Produkte ORDER BY Preis DESC;
@@ -53,20 +59,24 @@ SELECT * FROM Kunden ORDER BY Stadt ASC, Nachname ASC;
 ```
 
 #### `DISTINCT`
+
 - **Zweck**: Entfernt doppelte Zeilen aus der Ergebnismenge und zeigt nur einzigartige Werte an.
 
 **Beispiel**:
+
 ```sql
 -- Zeigt jede Stadt, in der Kunden wohnen, nur einmal an
 SELECT DISTINCT Stadt FROM Kunden;
 ```
 
 #### `LIKE` mit Wildcards
+
 - **Zweck**: Sucht nach Mustern in Textspalten innerhalb einer `WHERE`-Klausel.
 - `%`: Steht für null, ein oder beliebig viele Zeichen.
 - `_`: Steht für genau ein einzelnes Zeichen.
 
 **Beispiel**:
+
 ```sql
 -- Findet alle Produkte, deren Name mit 'L' beginnt
 SELECT * FROM Produkte WHERE Produktname LIKE 'L%';
@@ -82,17 +92,19 @@ SELECT * FROM Kunden WHERE Nachname LIKE 'Me_er';
 - **Zweck**: Führen Berechnungen über eine Menge von Zeilen aus und geben einen einzelnen Wert zurück.
 
 - **Wichtige Funktionen**:
-    - `COUNT()`: Zählt die Anzahl der Zeilen.
-    - `SUM()`: Berechnet die Summe der Werte in einer Spalte.
-    - `AVG()`: Berechnet den Durchschnitt der Werte.
-    - `MIN()`: Findet den kleinsten Wert.
-    - `MAX()`: Findet den größten Wert.
+  - `COUNT()`: Zählt die Anzahl der Zeilen.
+  - `SUM()`: Berechnet die Summe der Werte in einer Spalte.
+  - `AVG()`: Berechnet den Durchschnitt der Werte.
+  - `MIN()`: Findet den kleinsten Wert.
+  - `MAX()`: Findet den größten Wert.
 
 #### `GROUP BY`
+
 - **Zweck**: Gruppiert Zeilen, die dieselben Werte in bestimmten Spalten haben, zu einer einzigen Zeile. Wird fast immer mit Aggregatsfunktionen verwendet.
 - **Regel**: Wenn `SELECT` eine Aggregatsfunktion enthält, müssen alle anderen ausgewählten Spalten in der `GROUP BY`-Klausel aufgeführt werden.
 
 **Beispiel**:
+
 ```sql
 -- Zählt die Anzahl der Produkte pro Kategorie
 SELECT Kategorie, COUNT(ProduktID) FROM Produkte GROUP BY Kategorie;
@@ -102,9 +114,11 @@ SELECT Kategorie, AVG(Preis) FROM Produkte GROUP BY Kategorie;
 ```
 
 #### `HAVING`
-- **Zweck**: Filtert gruppierte Daten. `WHERE` filtert einzelne Zeilen *vor* der Gruppierung, `HAVING` filtert Gruppen *nach* der Gruppierung.
+
+- **Zweck**: Filtert gruppierte Daten. `WHERE` filtert einzelne Zeilen _vor_ der Gruppierung, `HAVING` filtert Gruppen _nach_ der Gruppierung.
 
 **Beispiel**:
+
 ```sql
 -- Zeigt nur Kategorien mit mehr als 2 Produkten an
 SELECT Kategorie, COUNT(ProduktID)
@@ -120,9 +134,11 @@ HAVING COUNT(ProduktID) > 2;
 - **Zweck**: Kombiniert Zeilen aus zwei oder mehr Tabellen basierend auf einer zugehörigen Spalte.
 
 #### `INNER JOIN` (oder einfach `JOIN`)
+
 - Gibt nur die Zeilen zurück, bei denen es in **beiden** Tabellen eine Übereinstimmung gibt.
 
 **Beispiel**:
+
 ```sql
 -- Kombiniert Bestellungen mit den zugehörigen Kundendaten
 SELECT b.BestellID, k.Vorname, k.Nachname
@@ -131,9 +147,11 @@ JOIN Kunden k ON b.FK_KundenID = k.KundenID;
 ```
 
 #### `LEFT JOIN`
+
 - Gibt **alle** Zeilen aus der linken Tabelle und die übereinstimmenden Zeilen aus der rechten Tabelle zurück. Wenn es keine Übereinstimmung gibt, sind die Spalten der rechten Tabelle `NULL`.
 
 **Beispiel**:
+
 ```sql
 -- Zeigt ALLE Kunden an und ihre Bestellungen, falls vorhanden
 SELECT k.Vorname, k.Nachname, b.BestellID
@@ -143,9 +161,11 @@ LEFT JOIN Bestellungen b ON k.KundenID = b.FK_KundenID;
 ```
 
 #### Mehrere `JOIN`s in einer Abfrage
+
 - Man kann beliebig viele Tabellen verketten.
 
 **Beispiel**:
+
 ```sql
 -- Holt alle relevanten Informationen zu einer Bestellung
 SELECT
@@ -166,6 +186,7 @@ JOIN Produkte p ON b.FK_ProduktID = p.ProduktID; -- 2. Join
 - Verbessert die Lesbarkeit und ist bei `JOIN`s auf dieselbe Tabelle notwendig.
 
 **Beispiel**:
+
 ```sql
 -- 'k' wird zum Alias für 'Kunden', 'Anzahl' für 'COUNT(ProduktID)'
 SELECT
@@ -178,4 +199,29 @@ GROUP BY Kategorie;
 SELECT k.Vorname, b.BestellID
 FROM Kunden AS k
 JOIN Bestellungen AS b ON k.KundenID = b.FK_KundenID;
+```
+
+Hier ist die Ergänzung im gewünschten Markdown-Format:
+
+---
+
+### 6. Begrenzung (`LIMIT`)
+
+- **Zweck**: Beschränkt die Anzahl der Zeilen, die das DBMS als Ergebnis der Abfrage zurückgibt.
+- Besonders nützlich, um die Performance bei riesigen Tabellen zu schonen oder um gezielte Ranglisten (z. B. "Die 10 neuesten Beiträge") zu erstellen.
+
+**Beispiel**:
+
+```sql
+-- Gibt nur die ersten 10 Zeilen der Tabelle 'Produkte' zurück
+SELECT *
+FROM Produkte
+LIMIT 10;
+
+-- Häufige Kombination: Die 5 günstigsten Produkte finden
+SELECT ProduktName, Preis
+FROM Produkte
+ORDER BY Preis ASC
+LIMIT 5;
+
 ```
