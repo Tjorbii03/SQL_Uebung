@@ -110,3 +110,7 @@ Damit die init.sql automatisch geladen wird, nutzt du am besten das Scrip. **Wic
 _Hinweis:_
 Unter Linux oder macOS muss man ein scrip immer ausführbar machen, das macht man mit:
 `chmod +x /pfad/zu/deiner/Datei/start_db.sh`
+
+**Hinweis**
+Wenn ihr eure lösung dokumentieren wollt empfehle ich eine .md datei und dann auch
+in der `init.sql` die ausgabe als markdown wählen
