@@ -108,3 +108,72 @@ INSERT INTO Bestellpositionen (FK_BestellID, FK_ProduktID, Menge) VALUES
 
 INSERT INTO Produktbewertungen (FK_ProduktID, Sterne, Kommentar) VALUES
 (1, 5, 'Top Gerät!'), (1, 4, 'Etwas teuer'), (2, 5, 'Super Maus'), (7, 3, 'Zu theoretisch');
+
+-- Zusätzliche Daten
+INSERT INTO Kunden (Vorname, Nachname, Email, Stadt, RegistriertSeit) VALUES
+('Laura', 'Pohl', 'laura@mail.com', 'Stuttgart', '2022-11-01'),
+('Chris', 'Beck', 'chris@mail.com', 'Dortmund', '2022-12-01'),
+('Tina', 'Fischer', 'tina@mail.de', 'Dresden', '2023-01-05'),
+('Jan', 'Richter', 'jan@mail.com', 'Bremen', '2023-02-10'),
+('Susanne', 'Graf', 'susanne@mail.de', 'Nürnberg', '2023-03-15'),
+('Martin', 'Wolf', 'martin@mail.com', 'Hannover', '2023-04-20'),
+('Heike', 'Sauer', 'heike@mail.de', 'Bochum', '2023-05-25'),
+('Dirk', 'Lange', 'dirk@mail.com', 'Wuppertal', '2023-06-30');
+
+INSERT INTO Mitarbeiter (Vorname, Nachname, Abteilung, Gehalt) VALUES
+('Sandra', 'Vogel', 'Marketing', 3200.00),
+('Frank', 'Sommer', 'IT', 4500.00),
+('Petra', 'Winter', 'Buchhaltung', 3800.00),
+('Uwe', 'Herbst', 'Lager', 2900.00);
+
+INSERT INTO Produkte (Produktname, Kategorie, Preis) VALUES
+('Gaming PC', 'Elektronik', 2100.00),
+('Mechanische Tastatur', 'Elektronik', 150.00),
+('Ergonomischer Bürostuhl', 'Möbel', 350.00),
+('Design-Regal', 'Möbel', 180.00),
+('Data Science Handbuch', 'Bücher', 55.00),
+('Clean Code', 'Bücher', 40.00),
+('Espressomaschine', 'Küche', 399.00),
+('Standmixer', 'Küche', 89.00),
+('Smartwatch', 'Elektronik', 250.00),
+('Noise-Cancelling-Kopfhörer', 'Elektronik', 199.00);
+
+INSERT INTO Lagerbestand VALUES (7, 100, 'A3'), (8, 80, 'A4'), (9, 20, 'D1'), (10, 30, 'D2'), (11, 15, 'C3'), (12, 5, 'C4'), (13, 50, 'A5'), (14, 25, 'B4'), (15, 40, 'E1'), (16, 8, 'E2'), (17, 30, 'E3'), (18, 20, 'F1'), (19, 12, 'F2'), (20, 22, 'G1');
+
+INSERT INTO Bestellungen (FK_KundenID, FK_MitarbeiterID, Bestelldatum, Status) VALUES
+(4, 2, '2023-10-12', 'Versandt'),
+(6, 4, '2023-10-18', 'In Bearbeitung'),
+(8, 1, '2023-11-05', 'Versandt'),
+(9, 3, '2023-11-10', 'Offen'),
+(10, 2, '2023-11-25', 'Storniert'),
+(12, 4, '2023-12-08', 'Versandt'),
+(14, 1, '2024-01-02', 'Offen'),
+(15, 3, '2024-01-05', 'In Bearbeitung'),
+(1, 1, '2024-01-06', 'Versandt'),
+(2, 2, '2024-01-07', 'Versandt'),
+(4, 3, '2024-01-08', 'Offen');
+
+INSERT INTO Bestellpositionen (FK_BestellID, FK_ProduktID, Menge) VALUES
+(5, 12, 1),
+(6, 15, 2),
+(7, 8, 1),
+(7, 9, 1),
+(8, 18, 1),
+(9, 20, 1),
+(10, 1, 1),
+(11, 11, 3),
+(12, 14, 1),
+(13, 2, 2),
+(14, 1, 1),
+(14, 20, 1),
+(15, 17, 1);
+
+INSERT INTO Produktbewertungen (FK_ProduktID, Sterne, Kommentar) VALUES
+(3, 4, 'Gute Tastatur, aber etwas laut.'),
+(5, 5, 'Sehr bequem, den Preis wert.'),
+(8, 5, 'Das beste Buch zum Thema!'),
+(11, 2, 'Nach 2 Wochen defekt.'),
+(12, 5, 'Perfekter Espresso!'),
+(15, 4, 'Leise und effektiv.'),
+(17, 5, 'Super Stuhl!'),
+(20, 3, 'Guter Klang, aber der Akku ist schwach.');
