@@ -105,6 +105,8 @@ Du bist Windows nutzer, dann lösche bitte die `start_db.sh` datei.
 
 Damit die init.sql automatisch geladen wird, nutzt du am besten das Scrip. **Wichtig**: Du musst in den Dateien den absoluten Pfad zu deinem Projektverzeichnis einmalig anpassen, damit die Dateien gefunden werden, egal aus welchem Ordner du das Skript aufrufst.
 
-**Hinweis**
-Wenn ihr eure lösung dokumentieren wollt empfehle ich eine .md datei und dann auch
-in der `init.sql` die ausgabe als markdown wählen
+**Hinweise**
+
+- Wenn ihr eure lösung dokumentieren wollt empfehle ich eine .md datei und dann auch
+  in der `init.sql` die ausgabe als markdown wählen
+- Außerdem empfehle ich `.echo on`
