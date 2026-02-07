@@ -1,0 +1,10 @@
+- **7.1 Unterschiedliche Kategorien**: Welche unterschiedlichen Produktkategorien existieren im Shop?
+- **7.2 Mitarbeiter-Abteilungen**: Zeige alle unterschiedlichen Abteilungen der Mitarbeiter.
+- **7.3 Bestellstati**: Welche unterschiedlichen Status-Werte haben Bestellungen?
+- **7.4 Lager-Regale**: Zeige alle Regalnummern, in denen Produkte lagern (DISTINCT).
+- **7.5 Bewertungs-Sterne**: Wie viele unterschiedliche Stern-Bewertungen (1-5) gibt es für Produkte?
+- **7.6 Kategorien bestellt**: Welche unterschiedlichen Produktkategorien wurden mindestens einmal bestellt? (mit JOIN)
+- **7.7 Kundenstädte mit Bestellungen**: Zeige alle einzigartigen Städte von Kunden, die bestellt haben (mit JOIN).
+- **7.8 Mitarbeiter mit Bestellungen**: Zeige die unterschiedlichen Mitarbeiter, die Bestellungen bearbeitet haben (mit DISTINCT).
+- **7.9 Produktkategorien im Lager**: Welche unterschiedlichen Kategorien von Produkten sind im Lagerbestand vorhanden? (mit JOIN)
+- **7.10 Kombinierte DISTINCT**: Zeige unterschiedliche Kombinationen von Stadt und Kategorie von Kunden, die Produkte bestellt haben.
