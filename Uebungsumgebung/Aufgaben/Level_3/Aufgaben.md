@@ -1,0 +1,14 @@
+- **3.1. Kunden nach Nachnamen sortieren**: Liste alle Kunden alphabetisch nach Nachnamen.
+- **3.2. Mitarbeiter nach Gehalt sortieren**: Zeige Mitarbeiter sortiert nach Gehalt (höchstes zuerst).
+- **3.3. Einzigartige Kundenstadt**: Liste alle einzigartigen Städte der Kunden auf (`DISTINCT`).
+- **3.4. Neue Kunden zuerst**: Zeige alle Kunden, sortiert nach dem Registrierungsdatum (neueste zuerst).
+- **3.5. Produkte nach Preis**: Liste alle Produkte nach dem Preis auf, von günstig nach teuer.
+- **3.6. Abteilungen**: Liste alle einzigartigen Abteilungen der Mitarbeiter auf.
+- **3.7. Produkte mit K am Anfang**: Finde Produkte, die mit 'K' beginnen.
+- **3.8. Deutsche E-Mail-Adressen**: Zeige Kunden mit '.de' Email-Endung.
+- **3.9. Produkte mit 'Pro' im Namen**: Finde Produkte, die 'Pro' im Namen enthalten.
+- **3.10. Namen die auf 'er' enden**: Finde alle Kunden, deren Nachname auf 'er' endet.
+- **3.11. Mitarbeiter mit 'S'**: Zeige alle Mitarbeiter, deren Vorname mit 'S' beginnt.
+- **3.12. Stühle im Sortiment**: Liste alle Produkte auf, die das Wort 'Stuhl' im Namen enthalten.
+- **3.13. Internationale E-Mails**: Finde alle Kunden mit einer '.com' Email-Endung.
+- **3.14. Bücher finden (case-insensitive)**: Finde alle Produkte, deren Name 'buch' enthält (unabhängig von Groß-/Kleinschreibung).
