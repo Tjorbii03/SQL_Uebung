@@ -1,0 +1,12 @@
+- **8.1. Kundenname mit Alias**: Zeige `Vorname AS 'Erster Name'` und `Nachname AS 'Familienname'` aller Kunden.
+- **8.2. Produkt-Alias**: Zeige `Produktname AS Artikel, Preis AS Einzelpreis, Kategorie AS Warengruppe`.
+- **8.3. Mitarbeiter-Alias**: Zeige `Vorname AS Mitarbeiter, Abteilung AS Bereich, Gehalt AS Monatssalär` aller Mitarbeiter.
+- **8.4. Lagerbestand-Alias**: Zeige `Anzahl AS 'Im Lager', Regalnummer AS 'Regal-Nr'` für alle Lagerbestände.
+- **8.5. Bestellung-Alias**: Zeige `BestellID AS 'Bestell-Nr', Bestelldatum AS 'Datum', Status AS 'Zustand'`.
+- **8.6. Alias mit Berechnung**: Zeige `Preis * 1.19 AS 'Brutto-Preis', Preis AS 'Netto-Preis'` für Produkte.
+- **8.7. Alias in Aggregation**: Zeige `COUNT(*) AS 'Anzahl Kunden', AVG(Gehalt) AS 'Durchschn. Gehalt'`.
+- **8.8. JOIN mit TABLE-Alias**: Verwende `FROM Kunden AS k JOIN Bestellungen AS b` und zeige k.Vorname, b.BestellID.
+- **8.9. Kombinierte Aliases**: Zeige Kunden mit `Vorname AS 'Kundenname', Stadt AS 'Ort'` für Kunden mit Bestellungen.
+- **8.10. Alias für Kategorien-Zählung**: Zeige `Kategorie AS 'Produktkategorie', COUNT(*) AS 'Anzahl Produkte'`.
+- **8.11. Komplexe Aliases mit JOIN**: Zeige `p.Produktname AS Produkt, l.Anzahl AS 'Lagerbestand', l.Regalnummer AS 'Standort'`.
+- **8.12. Alias in Bedingung**: Zeige Kategorien mit `COUNT(*) AS 'Produkt-Anzahl'` und filter nur die mit mehr als 2 Produkten.
