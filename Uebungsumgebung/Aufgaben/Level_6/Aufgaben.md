@@ -1,0 +1,5 @@
+- **6.1 Produkte pro Kategorie zählen**: Zeige jede Kategorie mit der Anzahl ihrer Produkte (mit GROUP BY).
+- **6.2 Kunden pro Stadt**: Zeige die Anzahl der Kunden pro Stadt (mit GROUP BY).
+- **6.3 Bewertungen pro Produkt**: Zähle die Anzahl der Bewertungen für jedes Produkt.
+- **6.4 Lagerbestand nach Regalnummer**: Zeige den Gesamtlagerbestand pro Regalnummer (mit GROUP BY).
+- **6.5 Durchschnittliche Produktpreise pro Kategorie**: Zeige jede Kategorie mit dem durchschnittlichen Produktpreis.
