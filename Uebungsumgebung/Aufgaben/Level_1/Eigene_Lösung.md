@@ -1,34 +1,34 @@
-### 1. Alle Kunden anzeigen
+### 1.1 Alle Kunden anzeigen
 
 ```sql
 
 ```
 
-### 2. Mitarbeiter-Namen
+### 1.2 Mitarbeiter-Namen
 
 ```sql
 
 ```
 
-### 6. Alle Mitarbeiter
+### 1.3 Alle Mitarbeiter
 
 ```sql
 
 ```
 
-### 11. Kontaktdaten
+### 1.4 Kontaktdaten
 
 ```sql
 
 ```
 
-### 15. Alle Bestelldaten
+### 1.5 Alle Bestelldaten
 
 ```sql
 
 ```
 
-### 13. Erste 5 Kunden
+### 1.6 Erste 5 Kunden
 
 ```sql
 
