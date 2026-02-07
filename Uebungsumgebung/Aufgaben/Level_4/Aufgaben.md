@@ -1,0 +1,10 @@
+- **4.1 Mehrere WHERE-Bedingungen**: Zeige alle Kunden aus 'Berlin' oder 'Hamburg'.
+- **4.2 IN-Operator**: Zeige Mitarbeiter aus den Abteilungen 'Vertrieb', 'IT' oder 'Marketing'.
+- **4.3 Null-Prüfung**: Zeige alle Bestellungen, bei denen ein Mitarbeiter zugewiesen ist (NOT NULL).
+- **4.4 AND & OR kombinieren**: Zeige Elektronik-Produkte unter 100€ ODER Möbel über 300€.
+- **4.5 BETWEEN nutzen**: Zeige alle Produkte mit einem Preis zwischen 50€ und 200€.
+- **4.6 Bestellungen mit zwei Bedingungen**: Zeige alle Bestellungen im Status 'Versandt' oder 'In Bearbeitung', sortiert nach Datum.
+- **4.7 Mehrere Filterbedingungen**: Zeige Kunden, die sich 2023 registriert haben und aus 'Berlin' sind.
+- **4.8 LIMIT kombinieren**: Zeige die 10 teuersten Produkte.
+- **4.9 Sortierung mit LIMIT**: Zeige die 5 ältesten Kunden (nach Registrierungsdatum).
+- **4.10 Komplexe Bedingung**: Zeige Bestellungen mit Status 'Versandt' ODER Status 'In Bearbeitung', aber nur von Kunden aus Berlin.
