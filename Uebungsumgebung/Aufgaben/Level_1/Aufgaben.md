@@ -1,0 +1,6 @@
+- **1.1. Alle Kunden anzeigen**: Zeige alle Spalten aus der `Kunden` Tabelle.
+- **1.2. Mitarbeiter-Namen**: Zeige nur `Vorname` und `Nachname` aller Mitarbeiter.
+- **1.3. Alle Mitarbeiter**: Zeige alle Spalten der Tabelle `Mitarbeiter`.
+- **1.4. Kontaktdaten**: Liste die Email-Adressen aller Kunden auf.
+- **1.5. Alle Bestelldaten**: Liste alle Bestelldaten aus der Tabelle `Bestellungen` auf.
+- **1.6. Erste 5 Kunden**: Zeige die ersten 5 Kunden in der Tabelle.
