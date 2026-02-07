@@ -1,0 +1,10 @@
+- **5.1 Gesamte Kundenanzahl**: Zähle die Gesamtanzahl der Kunden.
+- **5.2 Höchster Produktpreis**: Was ist der höchste Produktpreis im System?
+- **5.3 Gesamtanzahl Bestellungen**: Wie viele Bestellungen wurden insgesamt aufgegeben?
+- **5.4 Durchschnittsgehalt**: Berechne das Durchschnittsgehalt aller Mitarbeiter.
+- **5.5 Summe aller Gehälter**: Berechne die Gesamtsumme aller Gehälter (monatlich).
+- **5.6 Günstigstes Elektronik-Produkt**: Was ist der niedrigste Preis eines Produkts in der Kategorie 'Elektronik'?
+- **5.7 Gesamte Lageranzahl**: Berechne die Gesamtanzahl aller Artikel im Lager.
+- **5.8 Durchschnittsgehalt Vertrieb**: Was ist das Durchschnittsgehalt der Mitarbeiter in der Abteilung 'Vertrieb'?
+- **5.9 Teuerste und günstigste Produkt**: Zeige das teuerste und das günstigste Produkt mit ihren Preisen.
+- **5.10 Erste und letzte Bestellung**: Zeige das Datum der ersten und letzten Bestellung im System (MIN und MAX).
