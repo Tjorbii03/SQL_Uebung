@@ -1,0 +1,10 @@
+2.1 **Elektronik-Produkte**: Liste alle Produkte der Kategorie 'Elektronik' auf.
+2.2 **Günstige Elektronik**: Finde alle Elektronik-Produkte unter 100€.
+2.3 **Städte der Kunden**: Liste alle verschiedenen Städte auf, in denen Kunden wohnen.
+2.4 **Bücher im Sortiment**: Zeige die Namen aller Produkte aus der Kategorie 'Bücher'.
+2.5 **Vertriebsmitarbeiter**: Finde alle Mitarbeiter in der Abteilung 'Vertrieb'.
+2.6 **Versandte Bestellungen**: Zeige alle Bestellungen mit dem Status 'Versandt'.
+2.7 **Produkte mit genauem Preis**: Zeige alle Produkte, deren Preis genau 49.00€ beträgt.
+2.8 **Gut verdienende Mitarbeiter**: Finde alle Mitarbeiter mit einem Gehalt über 3000€.
+2.9 **Fünf-Stern-Bewertungen**: Zeige alle `Produktbewertungen` mit 5 Sternen.
+2.10 **Bestellungen ohne Mitarbeiter**: Zeige Bestellungen ohne zugewiesenen Mitarbeiter (`FK_MitarbeiterID` ist NULL).
