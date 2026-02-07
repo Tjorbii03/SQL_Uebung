@@ -1,27 +1,11 @@
 ## 🛠 datenbank- & tabellenverwaltung
 
-| befehl              | beschreibung             | syntax-beispiel |
-| ------------------- | ------------------------ | --------------- |
-| **create database** | neue datenbank erstellen |                 |
-
-| <br>`create database if not exists db_name;`
-
-|
-| <br>**use** | datenbank auswählen
-
-| <br>`use db_name;`
-
-|
-| <br>**show databases** | alle datenbanken auflisten
-
-| <br>`show databases;`
-
-|
-| <br>**drop table** | tabelle unwiderruflich löschen
-
-| <br>`drop table tbl_name;`
-
-|
+| befehl              | beschreibung                   | syntax-beispiel                          |
+| ------------------- | ------------------------------ | ---------------------------------------- |
+| **create database** | neue datenbank erstellen       | `create database if not exists db_name;` |
+| **use**             | datenbank auswählen            | `use db_name;`                           |
+| **show databases**  | alle datenbanken auflisten     | `show databases;`                        |
+| **drop table**      | tabelle unwiderruflich löschen | `drop table tbl_name;`                   |
 
 ### tabellen erstellen (`create table`)
 
