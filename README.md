@@ -36,7 +36,8 @@ Für die beste Erfahrung mit diesem Projekt empfehle ich die Verwendung von **Vi
 ## Projektstruktur
 
 - `📂 Uebungsumgebung/`: Enthält alle Dateien, die du für die Übungen benötigst.
-  - `📄 01_Theorie_und_Syntax.md`: Eine kompakte Zusammenfassung der wichtigsten SQL-Befehle.
+  - `📂 01_Theorie_und_Syntax/`: Eine kompakte Zusammenfassung der wichtigsten SQL-Befehle.
+    - `📝Befehlsreferenz.md`
   - `⚙️ 02_Setup_Datenbank.sql`: Das Skript zum Erstellen der Datenbank.
   - `📝 Aufgaben.md`: Der Aufgabenkatalog.
   - `✅ Lösungen.md`: Die Lösungs-Skripte.
