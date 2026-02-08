@@ -1,0 +1,15 @@
+- **11.1 Durchschnittliche Bestellmenge**: Was ist die durchschnittliche Menge pro Bestellposition?
+- **11.2 Produkte nach Verkaufsmenge**: Zeige Produkte, sortiert nach wie oft sie verkauft wurden (mit COUNT).
+- **11.3 Umsatz pro Bestellung**: Berechne für jede BestellID die Summe (Menge \* Preis aus Bestellpositionen).
+- **11.4 Umsatz pro Kunde**: Welcher Kunde hat insgesamt welchen Umsatz generiert? (mit SUM und mehreren JOINs).
+- **11.5 Produkte pro Kategorie mit Summe**: Zeige jede Kategorie mit Anzahl Produkte und Gesamtlagerbestand.
+- **11.6 Häufige Mitarbeiter**: Zeige Mitarbeiter, die mehr als 1 Bestellung bearbeitet haben (mit HAVING).
+- **11.7 Durchschnittliche Bewertung pro Produkt**: Zeige pro Produkt die Anzahl Bewertungen und Durchschnittssterne (mit AVG).
+- **11.8 Teuerste Bestellung berechnen**: Welche BestellID hat den höchsten Gesamtwert (Menge \* Preis)?
+- **11.9 Kategorien-Umsatz**: Welche Produktkategorie hat insgesamt den höchsten Umsatz gemacht?
+- **11.10 Mit HAVING-Klausel**: Zeige nur Kunden, deren Gesamtumsatz über 500€ liegt.
+- **11.11 Mit HAVING-Klausel (Produkte)**: Zeige nur Produkte, die mehr als 2-mal bestellt wurden.
+- **11.12 Lagerwert nach Kategorie**: Berechne den Gesamtwert des Lagers pro Kategorie (Preis \* Anzahl).
+- **11.13 Mitarbeiter-Performance**: Zeige pro Mitarbeiter wie viele Bestellungen er bearbeitet hat und deren Gesamtumsatz.
+- **11.14 Bestellstati-Umsatz**: Zeige pro Bestellstatus (Versandt, Offen, etc.) den Gesamtumsatz.
+- **11.15 Bestseller pro Kategorie**: Zeige pro Kategorie das meistverkaufte Produkt (nach Menge).
