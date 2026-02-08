@@ -1,0 +1,12 @@
+- **12.1 Lagerverkehrte Produkte**: Welche Produkte sind im Lager, wurden aber noch nie bestellt? (mit LEFT JOIN).
+- **12.2 Top 3 Kunden nach Umsatz**: Zeige die 3 besten Kunden mit Namen und Gesamtumsatz (mit LIMIT).
+- **12.3 Umsatz pro Stadt**: Welche Stadt hat insgesamt welchen Umsatz erzielt? (mit mehreren JOINs und GROUP BY).
+- **12.4 Produktanalyse komplett**: Für jedes Produkt zeige: Name, Preis, Lagerbestand, Anzahl Bewertungen, Durchschnittssterne.
+- **12.5 Kundenliste mit Details**: Zeige pro Kunde: Name, Stadt, Anzahl Bestellungen, Gesamtumsatz (mit mehreren JOINs).
+- **12.6 Stornierungsanalyse**: Welche Kunden haben stornierte Bestellungen? Zeige Name, Email, Anzahl Stornierungen.
+- **12.7 Lagerwert nach Regal**: Zeige pro Regalnummer: Anzahl Produkte, Durchschnittswert pro Produkt, Gesamtwert.
+- **12.8 Zeitliche Trends**: Zeige pro Monat die Anzahl Bestellungen und Gesamtumsatz (gruppiert nach Monat).
+- **12.9 Kategorie-Performance**: Zeige pro Kategorie: Anzahl Produkte, Durchschnittspreis, Gesamtumsatz, Bestseller.
+- **12.10 Mitarbeiter-Performance detailliert**: Zeige pro Mitarbeiter: Name, Abteilung, Anzahl Bestellungen, Gesamtumsatz, Durchschnitt pro Bestellung.
+- **12.11 Subquery**: Zeige alle Produkte, deren Preis über dem Durchschnittspreis ihrer Kategorie liegt.
+- **12.12 Komplexer Business-Report**: Erstelle einen Report mit: Gesamtkunden, Gesamtbestellungen, Durchschnitt-Umsatz, Top-Kategorie, Top-Mitarbeiter.
