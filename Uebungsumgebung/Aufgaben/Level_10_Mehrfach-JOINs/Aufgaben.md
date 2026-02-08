@@ -1,0 +1,15 @@
+- **10.1 3-Wege-JOIN (Basis)**: Zeige Kundennamen, Bestelldatum und Mitarbeitername für Bestellungen.
+- **10.2 3-Tabellen mit Sortierung**: Zeige Kunde + Bestellung + Mitarbeiter, sortiert nach Kundennamen.
+- **10.3 JOIN Kunde + Bestellung + Bestellposition + Produkt**: Zeige was jeder Kunde genau wann bestellt hat (mit Mengen).
+- **10.4 3-Wege-JOIN mit WHERE**: Zeige Kunden, Bestellungen und Mitarbeiter nur für Bestellungen im Status 'Versandt'.
+- **10.5 4-Wege-JOIN (Basis)**: Zeige Kundennamen, BestellID, Produktnamen und Menge.
+- **10.6 JOIN mit DISTINCT**: Zeige unterschiedliche Produkte, die Kunden aus Berlin bestellt haben.
+- **10.7 LEFT JOIN in Mehrfach-JOIN**: Zeige alle Kunden mit ihren Bestellungen (auch ohne) und Mitarbeitern.
+- **10.8 JOIN + WHERE + ORDER BY**: Zeige Bestellpositionen mit Produktnamen, nur für Kategorie 'Elektronik', sortiert nach Preis.
+- **10.9 3-Wege-JOIN mit Berechnung**: Zeige Produktname, Menge, Preis und berechneten Gesamtwert (Menge \* Preis).
+- **10.10 JOIN mit Alias und mehreren Tabellen**: Verwende Aliases (k, b, m, p) und zeige Kundennamen, Bestelldatum, Mitarbeitername, Produktnamen.
+- **10.11 3-Wege-JOIN mit Abteilung**: Zeige für jede Bestellung: Kundennamen, Mitarbeiternamen und dessen Abteilung.
+- **10.12 LEFT JOIN + INNER JOIN kombiniert**: Zeige alle Kunden, ihre Bestellungen (auch ohne) und nur die mit Produkten.
+- **10.13 GROUP BY mit mehreren JOINs**: Zeige pro Kategorie die Anzahl verkauften Produkte (mit COUNT).
+- **10.14 Komplexer JOIN mit mehreren Filter**: Zeige Bestellungen von Berliner Kunden, bearbeitet von Vertriebsmitarbeitern, mit Produkten über 100€.
+- **10.15 JOIN mit Bewertungen**: Zeige Bestellungen mit Kundennamen, Produktnamen und deren Bewertungen/Sterne (mit LEFT JOIN auf Bewertungen).
