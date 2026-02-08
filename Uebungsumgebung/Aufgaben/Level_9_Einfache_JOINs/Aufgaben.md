@@ -1,0 +1,15 @@
+- **9.1 Einfacher INNER JOIN - Bestellung + Kunde**: Zeige `BestellID` und den `Nachnamen` des Kunden für jede Bestellung.
+- **9.2 INNER JOIN - Produkt + Lagerbestand**: Zeige Produktnamen und Regalnummern (einfache Verknüpfung).
+- **9.3 INNER JOIN - Produkt + Bewertung**: Zeige Produktnamen und Sterne-Bewertungen zusammen.
+- **9.4 JOIN und Sortieren**: Zeige Bestellungen mit Vornamen des Kunden, sortiert nach Bestelldatum.
+- **9.5 JOIN mit Daten-Ausgabe**: Zeige Kundennamen, Bestelldatum und Status für alle Bestellungen.
+- **9.6 INNER JOIN mit WHERE**: Zeige zu jeder Bestellung den Nachnamen des zuständigen Mitarbeiters (nur Bestellungen mit Mitarbeiter).
+- **9.7 INNER JOIN mit Filter**: Zeige die Namen von Kunden aus 'Berlin', die bestellt haben (BestellID auch anzeigen).
+- **9.8 JOIN mit Null-Werten**: Zeige Produkte mit Lagerbestand, aber nur wenn die Anzahl nicht 0 ist.
+- **9.9 LEFT JOIN - Kunden ohne Bestellungen**: Zeige alle Kunden und ihre Bestellungen (auch wenn keine).
+- **9.10 LEFT JOIN - Produkte ohne Lager**: Zeige alle Produkte und ihren Lagerbestand (auch wenn 0).
+- **9.11 LEFT JOIN - Produkte ohne Bewertungen**: Zeige alle Produkte und ihre Sterne (auch wenn keine Bewertung).
+- **9.12 JOIN und ORDER BY**: Zeige Kunden mit ihren Bestelldaten, sortiert nach Kundennamen und dann Bestelldatum.
+- **9.13 JOIN + Aggregation einfach**: Zeige Produktnamen und zähle ihre Bewertungen (mit COUNT).
+- **9.14 JOIN von 3 Tabellen (einfach)**: Zeige Kunde + Bestellung + Produkt (mit einfachen Tabellen).
+- **9.15 JOIN mit Bedingung**: Zeige alle Bestellungen von Mitarbeitern aus der Abteilung 'Vertrieb'.
